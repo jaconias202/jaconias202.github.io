@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  /*  background: rgb(224,0,255);
+    background: linear-gradient(90deg, rgba(224,0,255,1) 11%, rgba(199,43,43,0.9906853633922535) 83%);*/
+   background: url("paisagem.jpg") no-repeat;
+   background-position: center;
+   background-size: cover;
+   font-family: 'Poppins', sans-serif;
+}
+
+
+h1{
+    font-weight: 400;
+    font-size: 35px;
+}
+
+.conteiner{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteiner01{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ffffff;
+    text-align: center;
+    height: 290px;
+    width: 240px;
+    padding-top: 30px;
+    padding-bottom: -10px;
+    border-radius: 5px;
+    padding: 4px;
+    padding-bottom: -10px;
+    box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.4);
+}
+
+.conteiner01{
+  background: rgba(255, 255, 254, 0.3);
+  /*background: transparent;*/
+  backdrop-filter: blur(20px);
+}
+
+.input01{
+    background: white;
+    display: flex;
+    align-items: center;
+    padding: 2px 8px 2px 8px;
+    border-radius: 16px;
+    width: 220px;
+    /*margin-right: -5px;*/
+    position: relative;
+    right: -6px;
+}
+
+input{
+    padding: 11px;
+    outline: none;
+    border: none;
+}
+
+input::placeholder{
+   font-size: 15px;
+   font-weight: 400;
+}
+
+
+ion-icon{
+   margin-right: 8px;
+   width: 18px;
+}
+
+.input02{
+    background: white;
+    display: flex;
+    align-items: center;
+    padding: 2px 8px 2px 8px;
+    border-radius: 16px;
+    width: 220px;
+    position: relative;
+    right: -6px;
+ }
+ 
+ .btn{
+     cursor: pointer;
+     border-radius: 8px;
+     font-size: 20px;
+     width: 220px;
+     position: relative;
+     right: -6px;
+    /* background: rgb(199,43,43);
+     background: linear-gradient(90deg, rgba(199,43,43,1) 11%, rgba(224,0,255,1) 83%);*/
+     background: transparent;
+     border: 0.5px solid #ffffff;
+ }
+ .btn:hover{
+     background: rgb(199,43,43);
+     background: linear-gradient(90deg, rgba(199,43,43,1) 11%, rgba(224,0,255,1) 83%);
+     border: none;
+ }
+ 
+ion-icon{
+    margin-left: 5px;
+    height: 18px;
+    width: 18px;
+}
+
+.label{
+  color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+}
